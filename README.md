@@ -9,3 +9,5 @@ After that the file is compressed to a .tar.bz2 format.
 The compressed file is uploaded to dropbox and then both files are deleted from the local machine.
 
 
+[Dropbox log folder link](https://www.dropbox.com/sh/0jyshfcpvlgva65/AADuxWv5hkce-xlj15-IWWCGa?dl=0
+)
