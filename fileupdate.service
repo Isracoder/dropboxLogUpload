@@ -1,0 +1,10 @@
+
+
+[Service]
+WorkingDirectory= /home/isra/Documents/timertest/
+Type=simple
+User=isra
+ExecStart=/bin/bash /home/isra/Documents/timertest/timer.sh
+
+[Install]
+WantedBy=multi-user.target

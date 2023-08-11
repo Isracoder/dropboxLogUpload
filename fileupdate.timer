@@ -1,0 +1,12 @@
+[Unit]
+Description="timer for the fileupdate.service to run a script that compresses the kernel logs and uploads to dropbox"
+
+[Timer]
+
+OnCalendar=*-*-* *:00:00
+
+AccuracySec=1s
+
+Unit=fileupdate.service
+[Install]
+WantedBy=timers.target
